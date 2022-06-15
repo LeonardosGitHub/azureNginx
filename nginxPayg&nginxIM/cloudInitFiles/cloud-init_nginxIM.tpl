@@ -39,4 +39,4 @@ runcmd:
   - systemctl enable nms-ingestion
   - systemctl enable nms
   - systemctl start nms
-  - nginx -s reload
+  - systemctl reload nginx
