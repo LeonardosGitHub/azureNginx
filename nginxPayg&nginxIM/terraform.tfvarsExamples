@@ -1,0 +1,22 @@
+####################
+# Common Variables #
+####################
+deployName  = "simon"
+prefix      = "prefix"
+environment = "dev"
+location    = "centralus"
+description = "Deploy a Virtual Machine with Nginx Plus"
+owner       = "John Doe"
+
+###########
+# Network #
+###########
+network-vnet-cidr = "10.10.0.0/16"
+vm-subnet-cidr    = "10.10.1.0/24"
+
+############
+# nginx VM #
+############
+nginx_vm_size        = "Standard_A1"
+nginx_admin_username = "nginxAdmin"
+nginx_admin_password = "superSecretPassword"
